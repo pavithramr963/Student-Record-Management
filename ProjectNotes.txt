@@ -1,0 +1,65 @@
+Library	      Meaning	                Purpose
+tkinter	      Python GUI library	Creates application windows
+ttk	      Themed Tkinter widgets	Creates tables
+messagebox    Message box module	Displays messages and errors
+sqlite3	      Database library	        Stores student records
+
+
+Tkinter – Used to design the application.
+SQLite – Used to store student details.
+Python – Used to write the program logic.
+
+
+Tkinter functions and widgets
+
+Tkinter is used to create the graphical user interface (GUI).
+
+Function / Widget	Purpose
+tk.Tk()			Creates the main window
+root.title()		Sets the window title
+root.geometry()		Sets window size
+root.configure()	Changes window properties
+tk.Label()		Displays text
+tk.Entry()		Accepts user input
+tk.Button()		Creates a button
+tk.Frame()		Creates a container
+.pack()			Arranges widgets
+.grid()			Arranges widgets in rows and columns
+ttk.Treeview()		Displays data in table format
+root.mainloop()		Keeps the application running
+
+Database connection functions
+
+Function		Meaning
+sqlite3.connect()	Connects to a database
+con.cursor()		Creates a cursor to execute SQL commands
+cur.execute()		Executes an SQL command
+cur.fetchall()		Retrieves all matching records
+cur.fetchone()		Retrieves one matching record
+con.commit()		Saves database changes
+cur.rowcount		Returns the number of affected rows
+
+Important Entry widget functions
+
+These functions are used to work with input boxes.
+
+Function	Purpose
+entry.get()	Gets the entered value
+entry.insert()	Inserts a value into the input box
+entry.delete()	Deletes the entered value
+
+Important concepts used in the project
+
+Concept	Explanation
+
+Variable		Stores a value
+Function		Block of reusable code
+Database		Stores information
+Table			Stores records in rows and columns
+Record			One complete student's information
+Field			One column in a table
+Event			An action performed by the user
+Event handling		Performing an action when a user clicks a button
+Exception handling	Handling errors in a program
+GUI			Graphical User Interface
+Validation		Checking whether entered data is correct
